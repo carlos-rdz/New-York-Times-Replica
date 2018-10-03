@@ -1,0 +1,123 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.top-header{
+
+background-color: black;
+color: white;
+text-align: center;
+text-decoration: underline;
+font-size: 14px;
+padding: 10px 0 10px 0
+
+}
+
+
+.navigation-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    height: 60px
+    
+    
+}
+.nytlogo{
+}
+
+.nytlogo img{
+    
+    width: 25px;
+    height: auto;
+    padding: 0 15px 0 15px
+    
+}
+
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.navigation-text{
+    padding: 0 15px 0 15px
+    
+    
+}
+
+.login{
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0 15px 0 15px
+}
+
+.main-title{
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.title{
+
+    font-size: 30px
+}
+
+.cancel-anytime{
+    
+    margin: 15px 0 0 0;
+    font-size: 19px
+}
+
+.reader-favorite{
+    margin: 30px 40px 40px 40px;
+    display: block;
+    /* outline: 1px solid red */
+}
+
+.reader-favorite-title{
+    display: inline-block;
+    padding: 9px 30px 10px 30px; 
+    background-color: #2e84ed;
+    color: white;
+    font-size: 12px;
+    /* outline: 1px solid red; */
+}
+
+
+.reader-favorite-container{
+    display: block;
+    border: 3px solid #2e84ed;
+    /* outline: 1px solid red; */
+    margin-top: 0px
+    
+}
+
+.subscription{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 0;
+    padding: 20px 30px 0px 30px; 
+    display: block 
+    
+}
+
+
+.unlimited{
+    /* font-weight: bold; */
+    font-size: 25px;
+    padding: 0px 30px 10px 30px;
+    display: block 
+    
+}
+.divider{
+    background-color: #333;
+    padding: 0px 30px 10px 30px;
+    height: 30px;
+    width: 57px;
+}
